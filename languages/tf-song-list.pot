@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tf Song List v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-10 19:29:11+0000\n"
+"Last-Translator: FULL NAME <email@domain.tld>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/debug.php:26
+msgid "Constants"
+msgstr ""
+
+#: includes/debug.php:39
+#: includes/settings.php:26
+#: tf-song-list.php:289
+#: tf-song-list.php:478
+#: tf-song-list.php:479
+msgid "Settings"
+msgstr ""
+
+#: includes/import-export.php:131
+msgid "File not processed!"
+msgstr ""
+
+#: includes/import-export.php:133
+msgid "Maybe double-check the file formatting?"
+msgstr ""
+
+#: includes/import-export.php:137
+msgid "File not uploaded!"
+msgstr ""
+
+#: includes/import-export.php:139
+msgid "Error"
+msgstr ""
+
+#: includes/import-export.php:144
+msgid "No file name entered!"
+msgstr ""
+
+#: includes/import-export.php:146
+msgid "Forgot something?"
+msgstr ""
+
+#: includes/import-export.php:226
+msgid "Import"
+msgstr ""
+
+#: includes/import-export.php:232
+msgid "CSV File"
+msgstr ""
+
+#: includes/import-export.php:248
+msgid "Upload CSV File"
+msgstr ""
+
+#: includes/import-export.php:250
+msgid "Export"
+msgstr ""
+
+#: includes/import-export.php:251
+msgid "Download a comma-separated values (CSV) file containing all the information of the song list database."
+msgstr ""
+
+#: includes/import-export.php:252
+msgid "The file is compatible with almost any spreadsheet software, and it can be imported into another tf Song List installation."
+msgstr ""
+
+#: includes/import-export.php:256
+msgid "File Content"
+msgstr ""
+
+#: includes/import-export.php:259
+msgid "All songs"
+msgstr ""
+
+#: includes/import-export.php:260
+msgid "Public songs"
+msgstr ""
+
+#: includes/import-export.php:267
+msgid "Download CSV File"
+msgstr ""
+
+#: includes/settings.php:31
+#: includes/settings.php:34
+msgid "Introduction"
+msgstr ""
+
+#: includes/settings.php:41
+#: includes/settings.php:44
+msgid "Show Introduction"
+msgstr ""
+
+#: includes/settings.php:48
+msgid "Show the introduction before the actual song list."
+msgstr ""
+
+#: includes/settings.php:54
+#: includes/settings.php:57
+msgid "Wrap Introduction"
+msgstr ""
+
+#: includes/settings.php:61
+msgid "Wrap the introduction in &lt;p&gt; tags."
+msgstr ""
+
+#: includes/settings.php:67
+msgid "Song List"
+msgstr ""
+
+#: includes/settings.php:83
+msgid "Artist Name"
+msgstr ""
+
+#: includes/settings.php:86
+msgid "What should the Artist column be named?"
+msgstr ""
+
+#: includes/settings.php:90
+msgid "Title Name"
+msgstr ""
+
+#: includes/settings.php:93
+msgid "What should the Title column be named?"
+msgstr ""
+
+#: includes/settings.php:97
+msgid "First Column"
+msgstr ""
+
+#: includes/settings.php:103
+msgid "What should the first column contain?"
+msgstr ""
+
+#: includes/settings.php:107
+msgid "Order By"
+msgstr ""
+
+#: includes/settings.php:113
+msgid "What should the song list be ordered by?"
+msgstr ""
+
+#: includes/songs.php:141
+#: tf-song-list.php:288
+msgid "Songs"
+msgstr ""
+
+#: includes/import-export.php:225
+#: tf-song-list.php:290
+msgid "Import/Export"
+msgstr ""
+
+#: tf-song-list.php:71
+msgid "Artist"
+msgstr ""
+
+#: tf-song-list.php:72
+msgid "Title"
+msgstr ""
+
+#: tf-song-list.php:379
+msgid "Help"
+msgstr ""
+
+#: includes/import-export.php:47
+#: includes/songs.php:124
+msgid "Song list not deleted!"
+msgstr ""
+
+#: includes/import-export.php:236
+msgid "Import Type"
+msgstr ""
+
+#: includes/import-export.php:242
+msgid "When replacing the song list, all existing songs will be deleted!"
+msgstr ""
+
+#: includes/import-export.php:239
+msgid "Add to current song list"
+msgstr ""
+
+#: includes/import-export.php:240
+msgid "Replace current song list"
+msgstr ""
+
+#: includes/import-export.php:188
+msgid "Nothing to export."
+msgstr ""
+
+#: includes/import-export.php:190
+msgid "Back"
+msgstr ""
+
+#: includes/import-export.php:201
+msgid "You are not authorized to do that. Please log in first."
+msgstr ""
+
+#: includes/songs.php:48
+#: includes/songs.php:74
+msgid "Song not added to the song list!"
+msgstr ""
+
+#: includes/songs.php:52
+msgid "Song added to the song list!"
+msgstr ""
+
+#: includes/songs.php:65
+msgid "Song not updated!"
+msgstr ""
+
+#: includes/songs.php:69
+msgid "Song updated!"
+msgstr ""
+
+#: includes/songs.php:76
+msgid "Both the artist and the title have to be entered."
+msgstr ""
+
+#: includes/songs.php:108
+msgid "Song not deleted!"
+msgstr ""
+
+#: includes/songs.php:112
+msgid "Song deleted!"
+msgstr ""
+
+#: includes/songs.php:128
+msgid "Song list deleted!"
+msgstr ""
+
+#: includes/songs.php:160
+msgid "Visibility"
+msgstr ""
+
+#: includes/songs.php:163
+msgid "Public"
+msgstr ""
+
+#: includes/songs.php:164
+msgid "Private"
+msgstr ""
+
+#: includes/songs.php:173
+msgid "Update Song"
+msgstr ""
+
+#: includes/songs.php:174
+msgid "Add Song"
+msgstr ""
+
+#: includes/songs.php:193
+msgid "Delete all songs?"
+msgstr ""
+
+#: includes/songs.php:204
+#: includes/songs.php:209
+msgid "Delete Song List"
+msgstr ""
+
+#: includes/songs.php:251
+#: includes/songs.php:259
+#: includes/songs.php:280
+msgid "Edit"
+msgstr ""
+
+#: includes/songs.php:252
+#: includes/songs.php:260
+#: includes/songs.php:290
+msgid "Delete"
+msgstr ""
+
+#: includes/songs.php:297
+msgid "There are no songs in the song list."
+msgstr ""
+
+#: includes/settings.php:70
+#: includes/settings.php:73
+msgid "Show Headings"
+msgstr ""
+
+#: includes/settings.php:77
+msgid "Show the song list headings."
+msgstr ""
+
+#: includes/songs.php:220
+msgid "Filter"
+msgstr ""
+
+#: includes/import-export.php:84
+#, php-format
+msgid "%d song was skipped due to errors."
+msgid_plural "%d songs were skipped due to errors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/import-export.php:101
+#, php-format
+msgid "%d song was successfully added to the song list."
+msgid_plural "%d songs were successfully added to the song list."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/import-export.php:113
+#, php-format
+msgid "%d song was not added to the song list as it was already present."
+msgid_plural "%d songs were not added to the song list as they were already present."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/import-export.php:124
+msgid "Show song list"
+msgstr ""
+
+#: includes/songs.php:222
+#: includes/songs.php:225
+msgid "All Songs"
+msgstr ""
+
+#: includes/songs.php:229
+#: includes/songs.php:233
+msgid "Public Songs"
+msgstr ""
+
+#: includes/songs.php:237
+#: includes/songs.php:241
+msgid "Private Songs"
+msgstr ""
+
+#: tf-song-list.php:406
+msgid "Song"
+msgid_plural "Songs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/debug.php:25
+msgid "Debug"
+msgstr ""
+
+#: includes/import-export.php:227
+msgid "Upload and import a comma-separated values (CSV) file into your database."
+msgstr ""
+
+#: includes/import-export.php:228
+msgid "Please have a read here to learn about the proper file format specifications."
+msgstr ""
+
+#: includes/settings.php:37
+msgid "Introduction before the actual song list."
+msgstr ""
+
+#: includes/songs.php:166
+msgid "Private songs are listed in here only &ndash; not on the frontend."
+msgstr ""
+
+#: tf-song-list.php:384
+msgid "More information:"
+msgstr ""
+
+#: tf-song-list.php:380
+msgid "The plugin settings should be fairly self-explanatory.<br />However, if you encounter any difficulties, please first have a look at the plugin website. If you still can't find a solution to your problem, feel free to contact me."
+msgstr ""
+
+#: tf-song-list.php:387
+msgid "Plugin Website"
+msgstr ""
+
+#: tf-song-list.php:482
+#: tf-song-list.php:483
+msgid "Documentation"
+msgstr ""
+

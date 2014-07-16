@@ -1,0 +1,95 @@
+/**
+ * tf Song List Admin Styles
+ *
+ * Thorsten Frommen
+ * http://ipm-frommen.de
+ */
+
+/* `No songs` notice */
+#tf-song-list #no-songs {
+	text-align: center;
+}
+
+/* Artist and title cells of private songs */
+#tf-song-list td.private {
+	font-size: 80%;
+	font-style: italic;
+	opacity: .6;
+	filter: alpha(opacity=60); /* for IE8 and earlier */
+}
+
+/* Delete button */
+.wp-core-ui #delete.button-secondary {
+    background-color: #9c2f21;
+    background-image: linear-gradient(to bottom, #c43b29, #9c2f21);
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    border-color: #9c2f21 #9c2f21 #8c2a1d;
+    box-shadow: 0 1px 0 rgba(229, 127, 119, .5) inset;
+}
+
+/* Delete button focussed/hovered */
+.wp-core-ui #delete.button-secondary:focus,
+.wp-core-ui #delete.button-secondary:hover,
+.wp-core-ui #delete.button-secondary.focus,
+.wp-core-ui #delete.button-secondary.hover {
+    background-color: #b83727;
+    background-image: linear-gradient(to bottom, #d1412e, #9c2f21);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    border-color: #80271b;
+    box-shadow: 0 1px 0 rgba(229, 127, 119, .6) inset;
+}
+
+/* Delete button focussed additions */
+.wp-core-ui #delete.button-secondary:focus,
+.wp-core-ui #delete.button-secondary.focus {
+    border-color: #4f170d;
+    box-shadow: 0 1px 0 rgba(229, 127, 119, .6) inset, 1px 1px 2px rgba(0, 0, 0, .4);
+}
+
+/* Delete button active */
+.wp-core-ui #delete.button-secondary:active,
+.wp-core-ui #delete.button-secondary.active,
+.wp-core-ui #delete.button-secondary.active:focus,
+.wp-core-ui #delete.button-secondary.active:hover {
+    background-color: #80271b;
+    background-image: linear-gradient(to bottom, #9c2f21, #b83727);
+    color: rgba(255, 255, 255, .95);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    border-color: #611e12 #ad3323 #ad3323;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1) inset;
+}
+
+/* Filter links */
+#tfsl-filter a {
+	text-decoration: none;
+}
+
+/* Debug table cells */
+.debug td {
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+
+/* Debug variables */
+.debug code {
+	margin: 0 5px 0 0;
+	font-size: 125%;
+}
+
+/* Debug values */
+.debug pre {
+	margin: 0;
+}
+
+/* Custom options */
+.options pre {
+	color: #008800;
+}
+
+/* Custom options */
+.options .custom {
+	color: #884c00;
+}

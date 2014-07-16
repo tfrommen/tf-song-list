@@ -1,0 +1,469 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tf Song List v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-10 19:29:11+0000\n"
+"Last-Translator: Thorsten Frommen <tf@ipm-frommen.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/debug.php:26
+#@ tf-song-list
+msgid "Constants"
+msgstr "Konstanten"
+
+#: includes/debug.php:39
+#: includes/settings.php:26
+#: tf-song-list.php:289
+#: tf-song-list.php:478
+#: tf-song-list.php:479
+#@ tf-song-list
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/import-export.php:131
+#@ tf-song-list
+msgid "File not processed!"
+msgstr "Datei nicht verarbeitet!"
+
+#: includes/import-export.php:133
+#@ tf-song-list
+msgid "Maybe double-check the file formatting?"
+msgstr "Ist die Datei richtig formatiert?"
+
+#: includes/import-export.php:137
+#@ tf-song-list
+msgid "File not uploaded!"
+msgstr "Datei nicht hochgeladen!"
+
+#: includes/import-export.php:139
+#@ tf-song-list
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/import-export.php:144
+#@ tf-song-list
+msgid "No file name entered!"
+msgstr "Kein Dateiname eingegeben."
+
+#: includes/import-export.php:146
+#@ tf-song-list
+msgid "Forgot something?"
+msgstr "Etwas vergessen?"
+
+#: includes/import-export.php:226
+#@ tf-song-list
+msgid "Import"
+msgstr "Import"
+
+#: includes/import-export.php:232
+#@ tf-song-list
+msgid "CSV File"
+msgstr "CSV-Datei"
+
+#: includes/import-export.php:248
+#@ tf-song-list
+msgid "Upload CSV File"
+msgstr "CSV-Datei hochladen"
+
+#: includes/import-export.php:250
+#@ tf-song-list
+msgid "Export"
+msgstr "Export"
+
+#: includes/import-export.php:251
+#@ tf-song-list
+msgid "Download a comma-separated values (CSV) file containing all the information of the song list database."
+msgstr "Lade eine CSV-Datei (comma-separated values) mit allen Informationen aus der Song List-Datenbank herunter."
+
+#: includes/import-export.php:252
+#@ tf-song-list
+msgid "The file is compatible with almost any spreadsheet software, and it can be imported into another tf Song List installation."
+msgstr "Die Datei ist kompatibel mit nahezu jeder Tabellenkalkulation und kann in eine andere tf Song List-Installation importiert werden."
+
+#: includes/import-export.php:256
+#@ tf-song-list
+msgid "File Content"
+msgstr "Dateiinhalt"
+
+#: includes/import-export.php:259
+#@ tf-song-list
+msgid "All songs"
+msgstr "Alle Songs"
+
+#: includes/import-export.php:260
+#@ tf-song-list
+msgid "Public songs"
+msgstr "Öffentliche Songs"
+
+#: includes/import-export.php:267
+#@ tf-song-list
+msgid "Download CSV File"
+msgstr "CSV-Datei herunterladen"
+
+#: includes/settings.php:31
+#: includes/settings.php:34
+#@ tf-song-list
+msgid "Introduction"
+msgstr "Einleitung"
+
+#: includes/settings.php:41
+#: includes/settings.php:44
+#@ tf-song-list
+msgid "Show Introduction"
+msgstr "Zeige Einleitung"
+
+#: includes/settings.php:48
+#@ tf-song-list
+msgid "Show the introduction before the actual song list."
+msgstr "Zeige die Einleitung vor der eigentlichen Song List"
+
+#: includes/settings.php:54
+#: includes/settings.php:57
+#@ tf-song-list
+msgid "Wrap Introduction"
+msgstr "Einleitung <em>wrappen</em>"
+
+#: includes/settings.php:61
+#@ tf-song-list
+msgid "Wrap the introduction in &lt;p&gt; tags."
+msgstr "Einleitung mit &lt;p&gt;-Tags umgeben."
+
+#: includes/settings.php:67
+#@ tf-song-list
+msgid "Song List"
+msgstr "Song List"
+
+#: includes/settings.php:83
+#@ tf-song-list
+msgid "Artist Name"
+msgstr "Interpretenbezeichnung"
+
+#: includes/settings.php:86
+#@ tf-song-list
+msgid "What should the Artist column be named?"
+msgstr "Wie soll die Spalte für die Interpreten benannt werden?"
+
+#: includes/settings.php:90
+#@ tf-song-list
+msgid "Title Name"
+msgstr "Titelbezeichnung"
+
+#: includes/settings.php:93
+#@ tf-song-list
+msgid "What should the Title column be named?"
+msgstr "Wie soll die Spalte für die Titel benannt werden?"
+
+#: includes/settings.php:97
+#@ tf-song-list
+msgid "First Column"
+msgstr "Erste Spalte"
+
+#: includes/settings.php:103
+#@ tf-song-list
+msgid "What should the first column contain?"
+msgstr "Was soll die erste Spalte beinhalten?"
+
+#: includes/settings.php:107
+#@ tf-song-list
+msgid "Order By"
+msgstr "Sortieren nach"
+
+#: includes/settings.php:113
+#@ tf-song-list
+msgid "What should the song list be ordered by?"
+msgstr "Wonach soll die Song List sortiert werden?"
+
+#: includes/songs.php:141
+#: tf-song-list.php:288
+#@ tf-song-list
+msgid "Songs"
+msgstr "Songs"
+
+#: includes/import-export.php:225
+#: tf-song-list.php:290
+#@ tf-song-list
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: tf-song-list.php:71
+#@ tf-song-list
+msgid "Artist"
+msgstr "Interpret"
+
+#: tf-song-list.php:72
+#@ tf-song-list
+msgid "Title"
+msgstr "Titel"
+
+#: tf-song-list.php:379
+#@ tf-song-list
+msgid "Help"
+msgstr "Hilfe"
+
+#: includes/import-export.php:47
+#: includes/songs.php:124
+#@ tf-song-list
+msgid "Song list not deleted!"
+msgstr "Song List nicht gelöscht!"
+
+#: includes/import-export.php:236
+#@ tf-song-list
+msgid "Import Type"
+msgstr "Art des Imports"
+
+#: includes/import-export.php:242
+#@ tf-song-list
+msgid "When replacing the song list, all existing songs will be deleted!"
+msgstr "Beim Ersetzen der Song List werden alle aktuell vorhandenen Songs gelöscht!"
+
+#: includes/import-export.php:239
+#@ tf-song-list
+msgid "Add to current song list"
+msgstr "Zur aktuellen Song List hinzufügen"
+
+#: includes/import-export.php:240
+#@ tf-song-list
+msgid "Replace current song list"
+msgstr "Aktuelle Song List ersetzen"
+
+#: includes/import-export.php:188
+#@ tf-song-list
+msgid "Nothing to export."
+msgstr "Nichts zu exportieren."
+
+#: includes/import-export.php:190
+#@ tf-song-list
+msgid "Back"
+msgstr "Zurück"
+
+#: includes/import-export.php:201
+#@ tf-song-list
+msgid "You are not authorized to do that. Please log in first."
+msgstr "Keine Autorisierung. Bitte zuerst einloggen."
+
+#: includes/songs.php:48
+#: includes/songs.php:74
+#@ tf-song-list
+msgid "Song not added to the song list!"
+msgstr "Song nicht zur Song List hinzugefügt!"
+
+#: includes/songs.php:52
+#@ tf-song-list
+msgid "Song added to the song list!"
+msgstr "Song zur Song List hinzugefügt!"
+
+#: includes/songs.php:65
+#@ tf-song-list
+msgid "Song not updated!"
+msgstr "Song nicht aktualisiert!"
+
+#: includes/songs.php:69
+#@ tf-song-list
+msgid "Song updated!"
+msgstr "Song aktualisiert!"
+
+#: includes/songs.php:76
+#@ tf-song-list
+msgid "Both the artist and the title have to be entered."
+msgstr "Sowohl der Künstler als auch der Titel müssen eingegeben werden."
+
+#: includes/songs.php:108
+#@ tf-song-list
+msgid "Song not deleted!"
+msgstr "Song nicht gelöscht!"
+
+#: includes/songs.php:112
+#@ tf-song-list
+msgid "Song deleted!"
+msgstr "Song gelöscht!"
+
+#: includes/songs.php:128
+#@ tf-song-list
+msgid "Song list deleted!"
+msgstr "Song List gelöscht!"
+
+#: includes/songs.php:160
+#@ tf-song-list
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: includes/songs.php:163
+#@ tf-song-list
+msgid "Public"
+msgstr "Öffentlich"
+
+#: includes/songs.php:164
+#@ tf-song-list
+msgid "Private"
+msgstr "Privat"
+
+#: includes/songs.php:173
+#@ tf-song-list
+msgid "Update Song"
+msgstr "Song aktualisieren"
+
+#: includes/songs.php:174
+#@ tf-song-list
+msgid "Add Song"
+msgstr "Song hinzufügen"
+
+#: includes/songs.php:193
+#@ tf-song-list
+msgid "Delete all songs?"
+msgstr "Alle Songs löschen?"
+
+#: includes/songs.php:204
+#: includes/songs.php:209
+#@ tf-song-list
+msgid "Delete Song List"
+msgstr "Song List löschen"
+
+#: includes/songs.php:251
+#: includes/songs.php:259
+#: includes/songs.php:280
+#@ tf-song-list
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/songs.php:252
+#: includes/songs.php:260
+#: includes/songs.php:290
+#@ tf-song-list
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/songs.php:297
+#@ tf-song-list
+msgid "There are no songs in the song list."
+msgstr "Keine Songs in der Song List."
+
+#: includes/settings.php:70
+#: includes/settings.php:73
+#@ tf-song-list
+msgid "Show Headings"
+msgstr "Zeige Überschriften"
+
+#: includes/settings.php:77
+#@ tf-song-list
+msgid "Show the song list headings."
+msgstr "Zeige die Überschriften der Song List."
+
+#: includes/songs.php:220
+#@ tf-song-list
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/import-export.php:84
+#, php-format
+#@ tf-song-list
+msgid "%d song was skipped due to errors."
+msgid_plural "%d songs were skipped due to errors."
+msgstr[0] "%d Song wurde aufgrund eines Fehlers übersprungen."
+msgstr[1] "%d Songs wurden aufgrund von Fehlern übersprungen."
+
+#: includes/import-export.php:101
+#, php-format
+#@ tf-song-list
+msgid "%d song was successfully added to the song list."
+msgid_plural "%d songs were successfully added to the song list."
+msgstr[0] "%d Song wurde erfolgreich zur Song List hinzugefügt."
+msgstr[1] "%d Songs wurden erfolgreich zur Song List hinzugefügt."
+
+#: includes/import-export.php:113
+#, php-format
+#@ tf-song-list
+msgid "%d song was not added to the song list as it was already present."
+msgid_plural "%d songs were not added to the song list as they were already present."
+msgstr[0] "%d Song wurde nicht zur Song List hinzugefügt, da er bereits vorhanden war."
+msgstr[1] "%d Songs wurden nicht zur Song List hinzugefügt, da sie bereits vorhanden waren."
+
+#: includes/import-export.php:124
+#@ tf-song-list
+msgid "Show song list"
+msgstr "Zeige Song List"
+
+#: includes/songs.php:222
+#: includes/songs.php:225
+#@ tf-song-list
+msgid "All Songs"
+msgstr "Alle Songs"
+
+#: includes/songs.php:229
+#: includes/songs.php:233
+#@ tf-song-list
+msgid "Public Songs"
+msgstr "Öffentliche Songs"
+
+#: includes/songs.php:237
+#: includes/songs.php:241
+#@ tf-song-list
+msgid "Private Songs"
+msgstr "Private Songs"
+
+#: tf-song-list.php:406
+#@ tf-song-list
+msgid "Song"
+msgid_plural "Songs"
+msgstr[0] "Song"
+msgstr[1] "Songs"
+
+#: includes/debug.php:25
+#@ tf-song-list
+msgid "Debug"
+msgstr "Debug"
+
+#: includes/import-export.php:227
+#@ tf-song-list
+msgid "Upload and import a comma-separated values (CSV) file into your database."
+msgstr "Lade eine CSV-Datei (comma-separated values) hoch und importiere sie in die Datenbank."
+
+#: includes/import-export.php:228
+#@ tf-song-list
+msgid "Please have a read here to learn about the proper file format specifications."
+msgstr "Hier gibt's Infos zur richtigen Dateiformatierung."
+
+#: includes/settings.php:37
+#@ tf-song-list
+msgid "Introduction before the actual song list."
+msgstr "Einleitung vor der eigentlichen Song List."
+
+#: includes/songs.php:166
+#@ tf-song-list
+msgid "Private songs are listed in here only &ndash; not on the frontend."
+msgstr "Private Songs werden nur hier aufgeführt &ndash; nicht im Frontend."
+
+#: tf-song-list.php:384
+#@ tf-song-list
+msgid "More information:"
+msgstr "Weitere Infos:"
+
+#: tf-song-list.php:380
+#@ tf-song-list
+msgid "The plugin settings should be fairly self-explanatory.<br />However, if you encounter any difficulties, please first have a look at the plugin website. If you still can't find a solution to your problem, feel free to contact me."
+msgstr "Die Plugin-Einstellungen sollten ziemlich selbsterklärend sein.<br />Falls du jedoch auf Probleme stoßen solltest, sieh dir zunächst bitte die Plugin-Website an. Sofern du anschließend immer noch keine Lösung für dein Problem gefunden hast, kannst du mich gerne kontaktieren."
+
+#: tf-song-list.php:387
+#@ tf-song-list
+msgid "Plugin Website"
+msgstr "Plugin-Website"
+
+#: tf-song-list.php:482
+#: tf-song-list.php:483
+#@ tf-song-list
+msgid "Documentation"
+msgstr "Dokumentation"
+
